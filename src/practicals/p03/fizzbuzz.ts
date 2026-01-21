@@ -1,4 +1,4 @@
-i = Number(process.argv[2]);
+const i = Number(process.argv[2]);
 const n = Number(i);
 
 
