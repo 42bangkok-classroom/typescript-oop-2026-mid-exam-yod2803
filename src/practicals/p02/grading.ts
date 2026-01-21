@@ -4,13 +4,13 @@ if (Number.isNaN(i) || i < 0 || i > 100) {
   console.log("Invalid Input");
 
 } else if (i >= 80) {
-  console.log("A");
+  console.log("Grade is A");
 } else if (i >= 70) {
-  console.log("B");
+  console.log("Grade is B");
 } else if (i >= 60) {
-  console.log("C");
+  console.log("Grade is C");
 } else if (i >= 50) {
-  console.log("D");
+  console.log("Grade is D");
 } else if(i >= 0 ) {
-  console.log("F");
+  console.log("Grade is F");
 }
