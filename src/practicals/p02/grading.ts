@@ -1,7 +1,7 @@
 const i = Number(process.argv[2]);
 
 if (Number.isNaN(i) || i < 0 || i > 100) {
-  console.log("Invalid Input");
+  console.log("Invalid input");
 
 } else if (i >= 80) {
   console.log("Grade is A");
