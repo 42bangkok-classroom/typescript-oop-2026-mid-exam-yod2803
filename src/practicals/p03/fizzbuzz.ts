@@ -1,5 +1,5 @@
-const input = Number(process.argv[2]);
-const n = Number(input);
+const x = Number(process.argv[2]);
+const n = Number(x);
 
 
 for (let i = 1; i <= n; i++) {
