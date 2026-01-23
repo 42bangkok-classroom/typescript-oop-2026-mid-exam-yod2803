@@ -2,16 +2,16 @@ const x = Number(process.argv[2]);
 const n = Number(x);
 
 
-for (let i = 1; i <= n; i++) {
+for (let j = 1; j <= n; j++) {
 
-    if (i % 3 == 0 && i % 5 ==0 ) {
+    if (j % 3 == 0 && j % 5 ==0 ) {
         console.log("FizzBuzz");
-      } else if (i % 3 == 0) {
+      } else if (j % 3 == 0) {
         console.log("Fizz");
-      } else if (i % 5 == 0) {
+      } else if (j % 5 == 0) {
         console.log("Buzz");
       } else  {
-        console.log(i);
+        console.log(j);
       }
   
 }
