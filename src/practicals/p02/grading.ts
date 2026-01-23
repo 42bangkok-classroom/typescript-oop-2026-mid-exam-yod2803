@@ -1,16 +1,16 @@
-const i = Number(process.argv[2]);
+const input = Number(process.argv[2]);
 
-if (Number.isNaN(i) || i < 0 || i > 100) {
+if (Number.isNaN(input) || input < 0 || input > 100) {
   console.log("Invalid input");
 
-} else if (i >= 80) {
+} else if (input >= 80) {
   console.log("Grade is A");
-} else if (i >= 70) {
+} else if (input >= 70) {
   console.log("Grade is B");
-} else if (i >= 60) {
+} else if (input >= 60) {
   console.log("Grade is C");
-} else if (i >= 50) {
+} else if (input >= 50) {
   console.log("Grade is D");
-} else if(i >= 0 ) {
+} else if(input >= 0 ) {
   console.log("Grade is F");
 }
